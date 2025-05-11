@@ -62,31 +62,6 @@ yarn dev
 
 The site will be available at `http://localhost:3000`
 
-## Building for Production
-
-To create a production build:
-
-```bash
-npm run build
-```
-
-The built files will be in the `dist` directory.
-
-## Deployment
-
-The site can be deployed to any static hosting service like Vercel, Netlify, or GitHub Pages.
-
-## Customization
-
-- Update personal information in the components
-- Modify the color scheme in `tailwind.config.js`
-- Add or remove sections as needed
-- Update projects and skills in their respective components
-
-## License
-
-MIT License - feel free to use this template for your own portfolio!
-
 ## Contact
 
 Danuka Chathurya
