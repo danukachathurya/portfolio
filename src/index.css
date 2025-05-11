@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-primary text-textPrimary;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply pt-8 md:pt-12 pb-16 md:pb-24;
+  }
+  
+  .container-padding {
+    @apply px-4 md:px-8 lg:px-16;
+  }
+  
+  .heading {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold;
+  }
+  
+  .subheading {
+    @apply text-xl md:text-2xl font-semibold;
+  }
+  
+  .nav-link {
+    @apply text-textSecondary hover:text-secondary transition-colors duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-secondary text-primary px-6 py-3 rounded-md font-medium hover:bg-opacity-80 transition-all duration-300;
+  }
+} 
